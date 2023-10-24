@@ -58,18 +58,18 @@ const userStars = user['stars'];
 // console.log(userLocation); // Об'єкт location
 // console.log(userStars) // Об'єкт stars
 
-const bookShelf = {
-    books: ['The Last Kingdom', 'Dream Guardian'],
-    getBooks() { // виводимо всі книги
-    // console.log(this.books) // масив з 2 книг 'The Last Kingdom', 'Dream Guardian'
-},
-    addBooks(bookName) { // додаємо книгу
-        this.books.push(bookName)
-    }
-}
+// const bookShelf = {
+//     books: ['The Last Kingdom', 'Dream Guardian'],
+//     getBooks() { // виводимо всі книги
+//     // console.log(this.books) // масив з 2 книг 'The Last Kingdom', 'Dream Guardian'
+// },
+//     addBooks(bookName) { // додаємо книгу
+//         this.books.push(bookName)
+//     }
+// }
 
-bookShelf.getBooks()
-bookShelf.addBooks('Stars Wars') // додаємо книгу
+// bookShelf.getBooks()
+// bookShelf.addBooks('Stars Wars') // додаємо книгу
 
 // console.log(bookShelf.books) // масив з 3 книг 'The Last Kingdom', 'Dream Guardian', 'Stars Wars'
 
@@ -229,9 +229,10 @@ for (const books of bookss) {
     stats: { followers, views: userViews, likes: userLikes = 0 },
   } = uсer;
   
-  console.log(name); // Jacques Gluke
-  console.log(tag); // jgluke
-  console.log(followers); // 5603
-  console.log(userViews); // 4827
-  console.log(userLikes); // 1308
+  // console.log(name); // Jacques Gluke
+  // console.log(tag); // jgluke
+  // console.log(followers); // 5603
+  // console.log(userViews); // 4827
+  // console.log(userLikes); // 1308
 
+  
